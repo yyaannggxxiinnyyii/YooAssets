@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39159c95b2ec4a6c948c92ce84b5aed5, type: 3}
+  m_Name: WeaponUpgrade_NailGun_HorizontalSplit
+  m_EditorClassIdentifier: 
+  displayName: 水平分裂
+  description: 子弹命中后水平分裂为 2 枚子弹，每枚造成最终攻击力 50% 的伤害。
+  icon: {fileID: 0}
+  splitDamageMultiplier: 0.5

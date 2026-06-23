@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3f40a2f6ea4be4b0bb58e1f12e88d9, type: 3}
+  m_Name: Skill_PiercingGun
+  m_EditorClassIdentifier: 
+  minorEnergyCost: 50
+  minorProjectileCount: 1
+  minorDamageMultiplier: 1.8
+  minorSpreadAngle: 0
+  minorProjectileSpeedMultiplier: 1.6
+  minorPierceMultiplier: 2
+  minorBounceMultiplier: 2
+  refillMagazineAfterMinorSkill: 0
+  chargeDuration: 1.2
+  chargeMoveSpeedMultiplier: 0.45
+  majorDuration: 0.01
+  majorFireInterval: 0.01
+  majorProjectileCount: 1
+  majorDamageMultiplier: 3
+  majorSpreadAngle: 0
+  majorProjectileSpeedMultiplier: 2
+  majorPierceOverride: 99
+  majorBounceOverride: 99
+  majorLifeTimeOverride: 6
+  majorRecoilMultiplier: 1
+  majorImpactMultiplier: 2

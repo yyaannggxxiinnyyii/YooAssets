@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edaeadfedcb484fb89a0bfb29262637, type: 3}
+  m_Name: "Enemy_\u5927\u718A"
+  m_EditorClassIdentifier: 
+  enemyId: bear
+  displayName: "\u5927\u718A"
+  sprite: {fileID: 21300000, guid: 25010047f84670b4493fd5ce1747e64c, type: 3}
+  prefab: {fileID: 400000, guid: 0bcbddee25dfa3d438fe9f4cc5a7af2e, type: 3}
+  animatorController: {fileID: 9100000, guid: f6053fd8c0c845b4c814d376df75e694, type: 2}
+  behaviorType: 3
+  maxHealth: 50
+  moveSpeed: 1.4
+  contactDamage: 1
+  dropExperience: 2
+  dropGold: 10
+  score: 40

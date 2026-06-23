@@ -1,0 +1,391 @@
+﻿%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325c9a8f77db47a5b8ab787df5568f92, type: 3}
+  m_Name: "\u7B49\u7EA7\u5347\u7EA7\u5956\u52B1\u8BCD\u6761\u6C60"
+  m_EditorClassIdentifier: 
+  offerCount: 3
+  rarityPools:
+  - rarity: 0
+    displayName: "\u666E\u901A"
+    backgroundColor: {r: 0.78, g: 0.78, b: 0.78, a: 0.95}
+    levelOneWeight: 70
+    referenceLevelWeight: 25
+    referenceLevel: 20
+    options:
+    - displayName: "\u666E\u901A\u9644\u52A0\u653B\u51FB\u529B"
+      description: "\u9644\u52A0\u653B\u51FB\u529B +1\u3002"
+      effectType: 1
+      effectValue: 1
+      weight: 2
+    - displayName: "\u666E\u901A\u653B\u51FB\u529B\u500D\u7387"
+      description: "\u653B\u51FB\u529B\u500D\u7387 +3%\u3002"
+      effectType: 14
+      effectValue: 0.03
+      weight: 3
+    - displayName: "\u666E\u901A\u79FB\u52A8\u901F\u5EA6\u500D\u7387"
+      description: "\u79FB\u52A8\u901F\u5EA6\u500D\u7387 +6%\u3002"
+      effectType: 2
+      effectValue: 0.06
+      weight: 2
+    - displayName: "\u666E\u901A\u7ECF\u9A8C\u500D\u7387"
+      description: "\u7ECF\u9A8C\u500D\u7387 +10%\u3002"
+      effectType: 15
+      effectValue: 0.1
+      weight: 2
+    - displayName: "\u666E\u901A\u5C04\u901F\u500D\u7387"
+      description: "\u5C04\u901F\u500D\u7387 +5%\u3002"
+      effectType: 5
+      effectValue: 0.05
+      weight: 3
+    - displayName: "\u666E\u901A\u6362\u5F39\u901F\u5EA6"
+      description: "\u6362\u5F39\u901F\u5EA6 +5%\u3002"
+      effectType: 6
+      effectValue: 0.05
+      weight: 1
+    - displayName: "\u666E\u901A\u5F39\u5939\u5BB9\u91CF"
+      description: "\u5F39\u5939\u5BB9\u91CF +10%\u3002"
+      effectType: 7
+      effectValue: 0.1
+      weight: 2
+    - displayName: "\u666E\u901A\u7CBE\u786E\u5EA6"
+      description: "\u7CBE\u786E\u5EA6 +5%\u3002"
+      effectType: 8
+      effectValue: 0.05
+      weight: 1
+    - displayName: "\u666E\u901A\u540E\u5750\u529B\u63A7\u5236"
+      description: "\u540E\u5750\u529B\u63A7\u5236 +5%\u3002"
+      effectType: 9
+      effectValue: 0.05
+      weight: 1
+    - displayName: "\u666E\u901A\u51B2\u51FB\u529B"
+      description: "\u51B2\u51FB\u529B +5%\u3002"
+      effectType: 10
+      effectValue: 0.05
+      weight: 1
+    - displayName: "\u666E\u901A\u5B50\u5F39\u4F53\u79EF"
+      description: "\u5B50\u5F39\u4F53\u79EF +5%\u3002"
+      effectType: 12
+      effectValue: 0.05
+      weight: 1
+    - displayName: "\u666E\u901A\u66B4\u51FB\u7387"
+      description: "\u66B4\u51FB\u7387 +3%\u3002"
+      effectType: 3
+      effectValue: 0.03
+      weight: 3
+    - displayName: "\u666E\u901A\u66B4\u51FB\u4F24\u5BB3\u500D\u7387"
+      description: "\u66B4\u51FB\u4F24\u5BB3\u500D\u7387 +5%\u3002"
+      effectType: 4
+      effectValue: 0.05
+      weight: 2
+  - rarity: 1
+    displayName: "\u7A00\u6709"
+    backgroundColor: {r: 0.18, g: 0.45, b: 0.22, a: 0.95}
+    levelOneWeight: 20
+    referenceLevelWeight: 27
+    referenceLevel: 20
+    options:
+    - displayName: "\u7A00\u6709\u9644\u52A0\u653B\u51FB\u529B"
+      description: "\u9644\u52A0\u653B\u51FB\u529B +2\u3002"
+      effectType: 1
+      effectValue: 2
+      weight: 2
+    - displayName: "\u7A00\u6709\u653B\u51FB\u529B\u500D\u7387"
+      description: "\u653B\u51FB\u529B\u500D\u7387 +5%\u3002"
+      effectType: 14
+      effectValue: 0.05
+      weight: 3
+    - displayName: "\u7A00\u6709\u79FB\u52A8\u901F\u5EA6\u500D\u7387"
+      description: "\u79FB\u52A8\u901F\u5EA6\u500D\u7387 +12%\u3002"
+      effectType: 2
+      effectValue: 0.12
+      weight: 2
+    - displayName: "\u7A00\u6709\u7ECF\u9A8C\u500D\u7387"
+      description: "\u7ECF\u9A8C\u500D\u7387 +20%\u3002"
+      effectType: 15
+      effectValue: 0.2
+      weight: 2
+    - displayName: "\u7A00\u6709\u5C04\u901F\u500D\u7387"
+      description: "\u5C04\u901F\u500D\u7387 +9%\u3002"
+      effectType: 5
+      effectValue: 0.09
+      weight: 3
+    - displayName: "\u7A00\u6709\u6362\u5F39\u901F\u5EA6"
+      description: "\u6362\u5F39\u901F\u5EA6 +10%\u3002"
+      effectType: 6
+      effectValue: 0.1
+      weight: 1
+    - displayName: "\u7A00\u6709\u5F39\u5939\u5BB9\u91CF"
+      description: "\u5F39\u5939\u5BB9\u91CF +15%\u3002"
+      effectType: 7
+      effectValue: 0.15
+      weight: 2
+    - displayName: "\u7A00\u6709\u7CBE\u786E\u5EA6"
+      description: "\u7CBE\u786E\u5EA6 +10%\u3002"
+      effectType: 8
+      effectValue: 0.1
+      weight: 1
+    - displayName: "\u7A00\u6709\u540E\u5750\u529B\u63A7\u5236"
+      description: "\u540E\u5750\u529B\u63A7\u5236 +10%\u3002"
+      effectType: 9
+      effectValue: 0.1
+      weight: 1
+    - displayName: "\u7A00\u6709\u51B2\u51FB\u529B"
+      description: "\u51B2\u51FB\u529B +10%\u3002"
+      effectType: 10
+      effectValue: 0.1
+      weight: 1
+    - displayName: "\u7A00\u6709\u5B50\u5F39\u4F53\u79EF"
+      description: "\u5B50\u5F39\u4F53\u79EF +8%\u3002"
+      effectType: 12
+      effectValue: 0.08
+      weight: 1
+    - displayName: "\u7A00\u6709\u66B4\u51FB\u7387"
+      description: "\u66B4\u51FB\u7387 +6%\u3002"
+      effectType: 3
+      effectValue: 0.06
+      weight: 3
+    - displayName: "\u7A00\u6709\u66B4\u51FB\u4F24\u5BB3\u500D\u7387"
+      description: "\u66B4\u51FB\u4F24\u5BB3\u500D\u7387 +10%\u3002"
+      effectType: 4
+      effectValue: 0.1
+      weight: 2
+  - rarity: 2
+    displayName: "\u7F55\u89C1"
+    backgroundColor: {r: 0.16, g: 0.32, b: 0.62, a: 0.95}
+    levelOneWeight: 8
+    referenceLevelWeight: 24
+    referenceLevel: 20
+    options:
+    - displayName: "\u7F55\u89C1\u6700\u5927\u751F\u547D"
+      description: "\u6700\u5927\u751F\u547D +2 \u8840\u3002"
+      effectType: 0
+      effectValue: 2
+      weight: 2
+    - displayName: "\u7F55\u89C1\u9644\u52A0\u653B\u51FB\u529B"
+      description: "\u9644\u52A0\u653B\u51FB\u529B +4\u3002"
+      effectType: 1
+      effectValue: 4
+      weight: 2
+    - displayName: "\u7F55\u89C1\u653B\u51FB\u529B\u500D\u7387"
+      description: "\u653B\u51FB\u529B\u500D\u7387 +10%\u3002"
+      effectType: 14
+      effectValue: 0.1
+      weight: 3
+    - displayName: "\u7F55\u89C1\u79FB\u52A8\u901F\u5EA6\u500D\u7387"
+      description: "\u79FB\u52A8\u901F\u5EA6\u500D\u7387 +20%\u3002"
+      effectType: 2
+      effectValue: 0.2
+      weight: 2
+    - displayName: "\u7F55\u89C1\u7ECF\u9A8C\u500D\u7387"
+      description: "\u7ECF\u9A8C\u500D\u7387 +35%\u3002"
+      effectType: 15
+      effectValue: 0.35
+      weight: 2
+    - displayName: "\u7F55\u89C1\u5C04\u901F\u500D\u7387"
+      description: "\u5C04\u901F\u500D\u7387 +15%\u3002"
+      effectType: 5
+      effectValue: 0.15
+      weight: 3
+    - displayName: "\u7F55\u89C1\u6362\u5F39\u901F\u5EA6"
+      description: "\u6362\u5F39\u901F\u5EA6 +20%\u3002"
+      effectType: 6
+      effectValue: 0.2
+      weight: 1
+    - displayName: "\u7F55\u89C1\u5F39\u5939\u5BB9\u91CF"
+      description: "\u5F39\u5939\u5BB9\u91CF +30%\u3002"
+      effectType: 7
+      effectValue: 0.3
+      weight: 2
+    - displayName: "\u7F55\u89C1\u7CBE\u786E\u5EA6"
+      description: "\u7CBE\u786E\u5EA6 +20%\u3002"
+      effectType: 8
+      effectValue: 0.2
+      weight: 1
+    - displayName: "\u7F55\u89C1\u540E\u5750\u529B\u63A7\u5236"
+      description: "\u540E\u5750\u529B\u63A7\u5236 +20%\u3002"
+      effectType: 9
+      effectValue: 0.2
+      weight: 1
+    - displayName: "\u7F55\u89C1\u51B2\u51FB\u529B"
+      description: "\u51B2\u51FB\u529B +20%\u3002"
+      effectType: 10
+      effectValue: 0.2
+      weight: 1
+    - displayName: "\u7F55\u89C1\u5B50\u5F39\u4F53\u79EF"
+      description: "\u5B50\u5F39\u4F53\u79EF +15%\u3002"
+      effectType: 12
+      effectValue: 0.15
+      weight: 1
+    - displayName: "\u7F55\u89C1\u66B4\u51FB\u7387"
+      description: "\u66B4\u51FB\u7387 +10%\u3002"
+      effectType: 3
+      effectValue: 0.1
+      weight: 3
+    - displayName: "\u7F55\u89C1\u66B4\u51FB\u4F24\u5BB3\u500D\u7387"
+      description: "\u66B4\u51FB\u4F24\u5BB3\u500D\u7387 +20%\u3002"
+      effectType: 4
+      effectValue: 0.2
+      weight: 2
+  - rarity: 3
+    displayName: "\u53F2\u8BD7"
+    backgroundColor: {r: 0.43, g: 0.22, b: 0.62, a: 0.95}
+    levelOneWeight: 2
+    referenceLevelWeight: 16
+    referenceLevel: 20
+    options:
+    - displayName: "\u53F2\u8BD7\u6700\u5927\u751F\u547D"
+      description: "\u6700\u5927\u751F\u547D +4 \u8840\u3002"
+      effectType: 0
+      effectValue: 4
+      weight: 2
+    - displayName: "\u53F2\u8BD7\u9644\u52A0\u653B\u51FB\u529B"
+      description: "\u9644\u52A0\u653B\u51FB\u529B +6\u3002"
+      effectType: 1
+      effectValue: 6
+      weight: 2
+    - displayName: "\u53F2\u8BD7\u653B\u51FB\u529B\u500D\u7387"
+      description: "\u653B\u51FB\u529B\u500D\u7387 +20%\u3002"
+      effectType: 14
+      effectValue: 0.2
+      weight: 3
+    - displayName: "\u53F2\u8BD7\u79FB\u52A8\u901F\u5EA6\u500D\u7387"
+      description: "\u79FB\u52A8\u901F\u5EA6\u500D\u7387 +30%\u3002"
+      effectType: 2
+      effectValue: 0.3
+      weight: 2
+    - displayName: "\u53F2\u8BD7\u7ECF\u9A8C\u500D\u7387"
+      description: "\u7ECF\u9A8C\u500D\u7387 +50%\u3002"
+      effectType: 15
+      effectValue: 0.5
+      weight: 2
+    - displayName: "\u53F2\u8BD7\u5C04\u901F\u500D\u7387"
+      description: "\u5C04\u901F\u500D\u7387 +32%\u3002"
+      effectType: 5
+      effectValue: 0.32
+      weight: 3
+    - displayName: "\u53F2\u8BD7\u6362\u5F39\u901F\u5EA6"
+      description: "\u6362\u5F39\u901F\u5EA6 +35%\u3002"
+      effectType: 6
+      effectValue: 0.35
+      weight: 1
+    - displayName: "\u53F2\u8BD7\u5F39\u5939\u5BB9\u91CF"
+      description: "\u5F39\u5939\u5BB9\u91CF +50%\u3002"
+      effectType: 7
+      effectValue: 0.5
+      weight: 2
+    - displayName: "\u53F2\u8BD7\u7CBE\u786E\u5EA6"
+      description: "\u7CBE\u786E\u5EA6 +35%\u3002"
+      effectType: 8
+      effectValue: 0.35
+      weight: 1
+    - displayName: "\u53F2\u8BD7\u540E\u5750\u529B\u63A7\u5236"
+      description: "\u540E\u5750\u529B\u63A7\u5236 +35%\u3002"
+      effectType: 9
+      effectValue: 0.35
+      weight: 1
+    - displayName: "\u53F2\u8BD7\u51B2\u51FB\u529B"
+      description: "\u51B2\u51FB\u529B +35%\u3002"
+      effectType: 10
+      effectValue: 0.35
+      weight: 1
+    - displayName: "\u53F2\u8BD7\u5B50\u5F39\u4F53\u79EF"
+      description: "\u5B50\u5F39\u4F53\u79EF +25%\u3002"
+      effectType: 12
+      effectValue: 0.25
+      weight: 1
+    - displayName: "\u53F2\u8BD7\u66B4\u51FB\u7387"
+      description: "\u66B4\u51FB\u7387 +15%\u3002"
+      effectType: 3
+      effectValue: 0.15
+      weight: 3
+    - displayName: "\u53F2\u8BD7\u66B4\u51FB\u4F24\u5BB3\u500D\u7387"
+      description: "\u66B4\u51FB\u4F24\u5BB3\u500D\u7387 +35%\u3002"
+      effectType: 4
+      effectValue: 0.35
+      weight: 2
+  - rarity: 4
+    displayName: "\u4F20\u8BF4"
+    backgroundColor: {r: 0.88, g: 0.58, b: 0.12, a: 0.95}
+    levelOneWeight: 0
+    referenceLevelWeight: 8
+    referenceLevel: 20
+    options:
+    - displayName: "\u4F20\u8BF4\u6700\u5927\u751F\u547D"
+      description: "\u6700\u5927\u751F\u547D +6 \u8840\u3002"
+      effectType: 0
+      effectValue: 6
+      weight: 2
+    - displayName: "\u4F20\u8BF4\u9644\u52A0\u653B\u51FB\u529B"
+      description: "\u9644\u52A0\u653B\u51FB\u529B +8\u3002"
+      effectType: 1
+      effectValue: 8
+      weight: 2
+    - displayName: "\u4F20\u8BF4\u653B\u51FB\u529B\u500D\u7387"
+      description: "\u653B\u51FB\u529B\u500D\u7387 +45%\u3002"
+      effectType: 14
+      effectValue: 0.45
+      weight: 3
+    - displayName: "\u4F20\u8BF4\u79FB\u52A8\u901F\u5EA6\u500D\u7387"
+      description: "\u79FB\u52A8\u901F\u5EA6\u500D\u7387 +45%\u3002"
+      effectType: 2
+      effectValue: 0.45
+      weight: 2
+    - displayName: "\u4F20\u8BF4\u7ECF\u9A8C\u500D\u7387"
+      description: "\u7ECF\u9A8C\u500D\u7387 +75%\u3002"
+      effectType: 15
+      effectValue: 0.75
+      weight: 2
+    - displayName: "\u4F20\u8BF4\u5C04\u901F\u500D\u7387"
+      description: "\u5C04\u901F\u500D\u7387 +55%\u3002"
+      effectType: 5
+      effectValue: 0.55
+      weight: 3
+    - displayName: "\u4F20\u8BF4\u6362\u5F39\u901F\u5EA6"
+      description: "\u6362\u5F39\u901F\u5EA6 +50%\u3002"
+      effectType: 6
+      effectValue: 0.5
+      weight: 1
+    - displayName: "\u4F20\u8BF4\u5F39\u5939\u5BB9\u91CF"
+      description: "\u5F39\u5939\u5BB9\u91CF +75%\u3002"
+      effectType: 7
+      effectValue: 0.75
+      weight: 2
+    - displayName: "\u4F20\u8BF4\u7CBE\u786E\u5EA6"
+      description: "\u7CBE\u786E\u5EA6 +50%\u3002"
+      effectType: 8
+      effectValue: 0.5
+      weight: 1
+    - displayName: "\u4F20\u8BF4\u540E\u5750\u529B\u63A7\u5236"
+      description: "\u540E\u5750\u529B\u63A7\u5236 +50%\u3002"
+      effectType: 9
+      effectValue: 0.5
+      weight: 1
+    - displayName: "\u4F20\u8BF4\u51B2\u51FB\u529B"
+      description: "\u51B2\u51FB\u529B +50%\u3002"
+      effectType: 10
+      effectValue: 0.5
+      weight: 1
+    - displayName: "\u4F20\u8BF4\u5B50\u5F39\u4F53\u79EF"
+      description: "\u5B50\u5F39\u4F53\u79EF +30%\u3002"
+      effectType: 12
+      effectValue: 0.3
+      weight: 1
+    - displayName: "\u4F20\u8BF4\u66B4\u51FB\u7387"
+      description: "\u66B4\u51FB\u7387 +22%\u3002"
+      effectType: 3
+      effectValue: 0.22
+      weight: 3
+    - displayName: "\u4F20\u8BF4\u66B4\u51FB\u4F24\u5BB3\u500D\u7387"
+      description: "\u66B4\u51FB\u4F24\u5BB3\u500D\u7387 +50%\u3002"
+      effectType: 4
+      effectValue: 0.5
+      weight: 2

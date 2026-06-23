@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa043ff58cf94ab4b976b9a3be29365c, type: 3}
+  m_Name: ShopItem_WeaponPart
+  m_EditorClassIdentifier: 
+  shopItemId: shop_weapon_part
+  displayName: "\u5F3A\u5316\u96F6\u4EF6"
+  description: "\u9053\u5177\uFF1A\u8D2D\u4E70\u540E\u653B\u51FB\u529B +2\u3002"
+  icon: {fileID: 0}
+  itemType: 0
+  itemData: {fileID: 11400000, guid: f9aa3eeac4b04a60a2ec715533fd49d0, type: 2}
+  relicData: {fileID: 0}
+  overridePrice: 0
+  overrideFixedPrice: 3

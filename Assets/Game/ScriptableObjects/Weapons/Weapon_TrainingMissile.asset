@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a8bf9c42d3415fb376490b1a4be174, type: 3}
+  m_Name: Weapon_TrainingMissile
+  m_EditorClassIdentifier: 
+  weaponId: training_missile
+  displayName: "\u5C04\u9489\u67AA"
+  description: "\u590D\u7528\u8BAD\u7EC3\u98DE\u5F39\u6A21\u677F\uFF0C\u671D\u9F20\u6807\u65B9\u5411\u5FEB\u901F\u53D1\u5C04\u5F39\u5E55\u3002"
+  icon: {fileID: 21300000, guid: 54afde8bb815e484cbfd48ca51fbfe4c, type: 3}
+  weaponPrefab: {fileID: 200002, guid: e869a141beff4dd1988701f39f03bcea, type: 3}
+  projectilePrefab: {fileID: 300002, guid: 793cec8b677846c69de1537ff56a790a, type: 3}
+  projectileSprite: {fileID: 21300000, guid: b50f44b7d4356924381d517860c397c8, type: 3}
+  projectileHitEffectPrefab: {fileID: 4690858390697855348, guid: b0a0aff7b2287c643acf71f2514a92ba, type: 3}
+  projectileExpireEffectPrefab: {fileID: 0}
+  attackType: 0
+  baseDamage: 12
+  attackInterval: 0.3
+  projectileSpeed: 9
+  projectileLifeTime: 2.2
+  criticalRate: 0.05
+  criticalDamage: 1.8
+  projectilePierce: 0
+  projectileBounce: 1
+  projectileCount: 1
+  magazineCapacity: 18
+  reloadTime: 1.5
+  maxEnergy: 100
+  energyRecoveryPerSecond: 5
+  energyPerKill: 5
+  accuracyAngle: 4
+  recoilDistance: 0.04
+  impactDistance: 0.08
+  maxLevel: 5
+  skillData: {fileID: 11400000, guid: 86cb5de0820a46f3b8c84b7f7bbdc815, type: 2}
+  weaponUpgradeOfferCount: 3
+  weaponUpgradeMaxCount: 3
+  weaponUpgradeTriggerLevels: 02000000080000000f00000014000000
+  weaponUpgradeEntries:
+  - {fileID: 11400000, guid: 389b3166aa664af58e5601c2d3ff8604, type: 2}
+  - {fileID: 11400000, guid: e959e814bd6c45a3804c4921abda6408, type: 2}
+  - {fileID: 11400000, guid: 98ef1db296e0433abd74251391f8cf9b, type: 2}

@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e6c1e63d0da4ff39f2791a39c87d4f5, type: 3}
+  m_Name: Stage_01
+  m_EditorClassIdentifier: 
+  _stageId: stage_01_test
+  _displayName: "\u7B2C\u4E00\u5173\u6D4B\u8BD5\u7248"
+  _totalCombatNodeCount: 20
+  _unlockStageIdAfterClear: 
+  _normalCombatRoomProfile:
+    _roomType: 0
+    _budgetMultiplier: 1
+    _healthMultiplier: 1
+    _damageMultiplier: 1
+    _speedMultiplier: 1
+    _rewardMultiplier: 1
+    _spawnRewardChestOnComplete: 0
+  _eliteCombatRoomProfile:
+    _roomType: 1
+    _budgetMultiplier: 1.25
+    _healthMultiplier: 1.15
+    _damageMultiplier: 1.1
+    _speedMultiplier: 1
+    _rewardMultiplier: 1.5
+    _spawnRewardChestOnComplete: 1
+  _enemySpawnProfile:
+    _baseBudget: 12
+    _budgetGrowthPerCombatNode: 4
+    _durationSeconds: 30
+    _spawnCutoffSeconds: 28
+    _waveTimes:
+    - 0
+    - 8
+    - 16
+    - 20
+    - 26
+    _waveBudgetRatios:
+    - 0.15
+    - 0.2
+    - 0.2
+    - 0.2
+    - 0.25
+    _earlySpawnEnemyThreshold: 3
+    _earlySpawnMinIntervalSeconds: 2
+    _softAliveLimit: 35
+    _hardAliveLimit: 50
+    _enemyPoolSegments:
+    - _minCombatNode: 1
+      _maxCombatNode: 5
+      _enemyEntries:
+      - _enemyData: {fileID: 11400000, guid: f48dbe609670c894cbe779324693d837, type: 2}
+        _spawnCost: 1
+        _spawnWeight: 40
+      - _enemyData: {fileID: 11400000, guid: dea07afa5ee64c0da70c3466611e26f9, type: 2}
+        _spawnCost: 1
+        _spawnWeight: 60
+    - _minCombatNode: 6
+      _maxCombatNode: 15
+      _enemyEntries:
+      - _enemyData: {fileID: 11400000, guid: f48dbe609670c894cbe779324693d837, type: 2}
+        _spawnCost: 1
+        _spawnWeight: 30
+      - _enemyData: {fileID: 11400000, guid: dea07afa5ee64c0da70c3466611e26f9, type: 2}
+        _spawnCost: 1
+        _spawnWeight: 50
+      - _enemyData: {fileID: 11400000, guid: 9660b46ba910f854aa0b7b2e187a1e82, type: 2}
+        _spawnCost: 2
+        _spawnWeight: 20
+    - _minCombatNode: 16
+      _maxCombatNode: 20
+      _enemyEntries:
+      - _enemyData: {fileID: 11400000, guid: f48dbe609670c894cbe779324693d837, type: 2}
+        _spawnCost: 1
+        _spawnWeight: 30
+      - _enemyData: {fileID: 11400000, guid: dea07afa5ee64c0da70c3466611e26f9, type: 2}
+        _spawnCost: 1
+        _spawnWeight: 30
+      - _enemyData: {fileID: 11400000, guid: 9660b46ba910f854aa0b7b2e187a1e82, type: 2}
+        _spawnCost: 2
+        _spawnWeight: 15
+      - _enemyData: {fileID: 11400000, guid: a98b67e801ab5714da3d9878fda59d08, type: 2}
+        _spawnCost: 3
+        _spawnWeight: 15
+  _bosses:
+  - _bossId: mid_boss_bear
+    _displayName: "\u4E2D Boss \u5927\u718A"
+    _bossEnemyData: {fileID: 11400000, guid: a8744e1f4ed92ae40a9871ab207a93b5, type: 2}
+    _combatNode: 10
+    _isFinalBoss: 0
+    _killScore: 500
+    _directRewardGold: 10
+    _directRewardExperience: 20
+    _skills:
+    - _skillId: mid_boss_summon_snakes
+      _displayName: "\u53EC\u5524\u5C0F\u86C7"
+      _effectType: 0
+      _triggerType: 2
+      _cooldownSeconds: 12
+      _healthPercentThreshold: 0.5
+      _triggerOnce: 0
+      _castLeadTimeSeconds: 0.5
+      _castRecoveryTimeSeconds: 0.5
+      _interruptMovement: 0
+      _summonEnemies:
+      - _enemyData: {fileID: 11400000, guid: 9660b46ba910f854aa0b7b2e187a1e82, type: 2}
+        _count: 2
+      _summonPositionRule: 0
+  - _bossId: final_boss_bear
+    _displayName: "\u6700\u7EC8 Boss \u5927\u718A"
+    _bossEnemyData: {fileID: 11400000, guid: a8744e1f4ed92ae40a9871ab207a93b5, type: 2}
+    _combatNode: 20
+    _isFinalBoss: 1
+    _killScore: 1000
+    _directRewardGold: 25
+    _directRewardExperience: 50
+    _skills:
+    - _skillId: final_boss_summon_pack
+      _displayName: "\u53EC\u5524\u72FC\u7FA4"
+      _effectType: 0
+      _triggerType: 2
+      _cooldownSeconds: 10
+      _healthPercentThreshold: 0.5
+      _triggerOnce: 0
+      _castLeadTimeSeconds: 0.5
+      _castRecoveryTimeSeconds: 0.5
+      _interruptMovement: 0
+      _summonEnemies:
+      - _enemyData: {fileID: 11400000, guid: dea07afa5ee64c0da70c3466611e26f9, type: 2}
+        _count: 3
+      - _enemyData: {fileID: 11400000, guid: f48dbe609670c894cbe779324693d837, type: 2}
+        _count: 2
+      _summonPositionRule: 0
+  _roomOptionRules:
+  - _minCombatNode: 1
+    _maxCombatNode: 19
+    _weight: 1
+    _forceOverride: 0
+    _doorCount: 1
+    _roomOptionPool:
+    - _roomOptionData: {fileID: 11400000, guid: 31fb056547747744c9a9c44bce5d4395, type: 2}
+      _weight: 1
+  _difficultyCurve:
+    _baseHealthMultiplier: 1
+    _baseSpeedMultiplier: 1
+    _baseDamageMultiplier: 1
+    _baseGoldMultiplier: 1
+    _baseExperienceMultiplier: 1
+    _healthMultiplierGrowthPerCombatNode: 0.08
+    _speedMultiplierGrowthPerCombatNode: 0.01
+    _damageMultiplierGrowthPerCombatNode: 0.03
+    _goldMultiplierGrowthPerCombatNode: 0.02
+    _experienceMultiplierGrowthPerCombatNode: 0.03

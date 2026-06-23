@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e3f40a2f6ea4be4b0bb58e1f12e88d9, type: 3}
+  m_Name: Skill_NailGun
+  m_EditorClassIdentifier: 
+  minorEnergyCost: 30
+  minorProjectileCount: 6
+  minorDamageMultiplier: 0.8
+  minorSpreadAngle: 10
+  minorProjectileSpeedMultiplier: 1
+  minorPierceMultiplier: 1
+  minorBounceMultiplier: 1
+  refillMagazineAfterMinorSkill: 1
+  chargeDuration: 1.2
+  chargeMoveSpeedMultiplier: 0.45
+  majorDuration: 3
+  majorFireInterval: 0.12
+  majorProjectileCount: 2
+  majorDamageMultiplier: 0.75
+  majorSpreadAngle: 25
+  majorProjectileSpeedMultiplier: 1
+  majorPierceOverride: -1
+  majorBounceOverride: -1
+  majorLifeTimeOverride: -1
+  majorRecoilMultiplier: 1.5
+  majorImpactMultiplier: 1.5

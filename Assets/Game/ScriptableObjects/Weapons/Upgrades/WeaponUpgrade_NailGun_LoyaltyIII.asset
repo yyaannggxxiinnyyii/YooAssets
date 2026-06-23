@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 703b6aaca96d46e89d92c695751aa54b, type: 3}
+  m_Name: WeaponUpgrade_NailGun_LoyaltyIII
+  m_EditorClassIdentifier: 
+  displayName: "\u5FE0\u8BDA III"
+  description: "\u83B7\u5F97 1 \u5C42\u7A7F\u900F\uFF0C\u666E\u901A\u5C04\u9489\u6700\u5927\u98DE\u884C\u65F6\u95F4\u56FA\u5B9A\u4E3A
+    1 \u79D2\uFF1B\u5C04\u51FA\u7684\u666E\u901A\u9489\u5B50\u4F1A\u7559\u5728\u573A\u4E0A\uFF0C\u53F3\u952E\u6280\u80FD\u6539\u4E3A\u53EC\u56DE\u6240\u6709\u9489\u5B50\u5E76\u5BF9\u8DEF\u5F84\u4E0A\u7684\u654C\u4EBA\u9020\u6210\u4F24\u5BB3\uFF0C\u5927\u6280\u80FD\u53D6\u6D88\u3002"
+  icon: {fileID: 0}
+  recallDamageMultiplier: 0.45
+  maxRecoverableNailCount: 80
+  anchorNailPrefab: {fileID: 300000, guid: a3496ea75bf1f0a48b23f14a7f872efd, type: 3}
+  anchorNailScale: 0.24
+  anchorNailLifeTime: 0
+  recallNailSprite: {fileID: 21300000, guid: b50f44b7d4356924381d517860c397c8, type: 3}
+  spawnScope: 1
+  maxChildGeneration: 1
+  spawnOnHitEnemy: 1
+  spawnOnLifeTimeEnded: 1
+  spawnOnHitWall: 1
+  projectilePierceBonus: 1
+  projectileLifeTimeOverrideSeconds: 0.5

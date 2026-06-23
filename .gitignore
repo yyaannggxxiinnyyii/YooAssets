@@ -1,0 +1,55 @@
+# Unity generated folders
+/Library/
+/Temp/
+/Logs/
+/obj/
+/UserSettings/
+/MemoryCaptures/
+/Recordings/
+
+# Local IDE and generated solution files
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Build outputs and packaged content
+/Build/
+/Builds/
+/OutPut/
+/OutPut.zip
+/Bundles/
+/CDN/
+/HybridCLRData/
+/yoo/
+
+# YooAssets and runtime generated bundle copies
+/Assets/StreamingAssets/yoo/
+/Assets/StreamingAssets/yoo.meta
+
+# Local agent/tool state
+/.agents/
+/.codex/
+/.codegraph/
+/Assets/.codegraph/
+
+# Large generated font assets, keep source fonts if they are small enough
+/Assets/Resources/Fronts/* SDF.asset
+/Assets/Resources/Fronts/* SDF.asset.meta
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Crash dumps and debug symbols
+*.stackdump
+*.dmp
+*.pdb
+*.mdb

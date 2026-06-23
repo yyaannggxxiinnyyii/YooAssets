@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa043ff58cf94ab4b976b9a3be29365c, type: 3}
+  m_Name: ShopItem_GoldCompass
+  m_EditorClassIdentifier: 
+  shopItemId: shop_gold_compass
+  displayName: "\u91D1\u5E01\u7F57\u76D8"
+  description: "\u9057\u7269\uFF1A\u540E\u7EED\u91D1\u5E01\u6536\u76CA +25%\u3002"
+  icon: {fileID: 21300000, guid: 44238c38800662543ba8fb3413a1dcac, type: 3}
+  itemType: 1
+  itemData: {fileID: 0}
+  relicData: {fileID: 11400000, guid: 844de9f52307487b9077bfbf733707f9, type: 2}
+  overridePrice: 0
+  overrideFixedPrice: 5

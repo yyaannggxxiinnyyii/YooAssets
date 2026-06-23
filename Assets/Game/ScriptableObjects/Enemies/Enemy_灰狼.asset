@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edaeadfedcb484fb89a0bfb29262637, type: 3}
+  m_Name: "Enemy_\u7070\u72FC"
+  m_EditorClassIdentifier: 
+  enemyId: wolf
+  displayName: "\u7070\u72FC"
+  sprite: {fileID: 21300000, guid: 9f52c8b7909529c438d83a263aaf2383, type: 3}
+  prefab: {fileID: 400000, guid: 6f2f0c4d1d8f4ecf9d9f4b7f69e2d101, type: 3}
+  animatorController: {fileID: 9100000, guid: f6053fd8c0c845b4c814d376df75e694, type: 2}
+  behaviorType: 1
+  maxHealth: 40
+  moveSpeed: 1.4
+  contactDamage: 1
+  dropExperience: 2
+  dropGold: 5
+  score: 15
